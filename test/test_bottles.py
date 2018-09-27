@@ -63,7 +63,7 @@ def test_a_few_verses(bottles):
     assert expected == bottles.verses(2, 0)
 
 
-def test_whole_song():
+def test_whole_song(bottles):
     expected = dedent('''
         99 bottles of beer on the wall, 99 bottles of beer.
         Take one down and pass it around, 98 bottles of beer on the wall.
