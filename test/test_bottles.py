@@ -30,7 +30,7 @@ def test_verse_1(bottles):
     expected = dedent('''
         1 bottle of beer on the wall, 1 bottle of beer.
         Take it down and pass it around, no more bottles of beer on the wall.''').lstrip()
-    assert expected == bottles.verse(2)
+    assert expected == bottles.verse(1)
 
 
 def test_verse_0(bottles):
